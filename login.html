@@ -1,0 +1,33 @@
+<head>
+    <title>Авторизация</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/login.css">
+    <script src="./scripts/login.js"></script>
+    <script src="./scripts/jquery.js"></script>
+</head>
+
+<div class="container">
+    <form onsubmit="Login(event)">
+        <span id="msg">Авторизация</span>
+        <span>
+            <label for="login">Логин</label><br>
+            <input type="text" id="login">
+        </span>
+        <span class="hide" hidden>
+            <label for="name">Имя</label><br>
+            <input type="text" id="name">
+        </span>
+        <span>
+            <label for="pswd">Пароль</label><br>
+            <input type="password" id="pswd">
+        </span>
+        <span class="hide" hidden>
+            <label for="pswd2">Подтверждение пароля</label><br>
+            <input type="password" id="pswd2">
+        </span>
+
+        <input type="submit" value="Войти">
+
+        <span><a href="index.html">На главную</a> | <a href="#" id="reg" onclick="Reg(event)">Регистрация</a></span>
+    </form>
+</div>

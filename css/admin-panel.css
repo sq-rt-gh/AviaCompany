@@ -1,0 +1,78 @@
+#toast {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    font-size: 16pt;
+    padding: 30px 40px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  #toast.show {
+    opacity: 1;
+  }
+  
+
+.wrapper {
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        font-size: 16pt;
+    }
+
+    div {
+        margin-top: 15px;
+    }
+}
+
+.container {
+    overflow: auto;
+}
+
+#table {
+    border: 1pt solid black;
+    border-radius: 10px;
+    background-color: rgb(255, 203, 135);
+
+    button {
+        border-radius: 5px;
+        padding: 3px;
+    }
+
+    input, select {
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        max-width: 210px;
+        font-size: 14pt;
+    }
+    
+    [type='text'] {
+        max-width: 160px;
+    }
+
+    td {
+        padding: 10px 2px;
+        text-align: center;
+    }
+}
+
+.green {
+    background-color: lightgreen;
+}
+
+.blue {
+    background-color: lightblue;
+}
+
+.red {
+    background-color: lightcoral;
+}

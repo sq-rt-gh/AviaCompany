@@ -1,0 +1,98 @@
+.wrapper {
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+section {
+    padding: 10px;
+    margin: 5px;
+}
+
+.search {
+    display: flex;
+}
+
+.search form {
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: auto;
+    width: fit-content;
+    background-color: darkviolet;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.search input, .search select {
+    font-size: 16pt;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+    max-width: 200px;
+}
+
+.search-btn {
+    background-color: orange;
+}
+
+.flights {
+    overflow: auto;
+
+    table {
+        margin: auto;
+        border-spacing: 0px;
+        border-collapse: collapse;
+    }
+
+    p {
+        font-size: 14pt;
+        margin: 3px;
+    }
+
+    h3 {
+        font-size: 20pt;
+        margin: 3px;
+    }
+
+    form {
+        margin: 0px;
+    }
+}
+
+.tr {
+    background-color: cornflowerblue;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 1);
+}
+
+.empty {
+    height: 20px;
+}
+
+.city-info {
+    padding: 5px;
+    text-align: center;
+}
+
+.buy-btn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 14pt;
+    background-color: green;
+}
+
+.plane-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+    img {
+        width: auto;
+        height: auto;
+        max-width: 200px;
+        max-height: 70px;
+        border-radius: 5px;
+    }
+}
